@@ -1,0 +1,20 @@
+conversionSpecifierTest.c
+	- printf (stdin) on char variable works with both %c and %d.
+	- %c prints "A". %d prints "65" (ASCII code). (What is different about
+	their representations in memory?)
+	
+	- printf for int type only works with %d. %c prints nothing.
+
+	- Q: when calling cat on a file, the value displayed with show
+	15 whether it is stored as integer 15 or two chars 1 and 5. How can 
+	we tell?
+	
+	- Q: how does what gets printed to standard output relate to
+	what is stored in memory in a file?
+	
+	
+variablePropertiesTest.c
+	- and int variable type can be assigned a char value. Why is this?
+	- Upon compilation, a 4 byte block of memory is allocated for storage
+	of the value of the int. Where is the variable name stored? is there
+	any other information corresponding to the variable that is stored?
